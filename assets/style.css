@@ -16,11 +16,22 @@ body {
     outline-style: solid;
     padding: 5px;
 }
+.fa-solid {
+    display: grid;
+    place-items: center;
+}
+
 
 .educacion-titulo {
     color: gray;
 }
 
+.fa-brands {
+    display:flex;
+    align-items:start;
+    justify-content:flex-start;
+    
+}
 .datos_y_redes {
     display: flex;
     justify-content: center;
@@ -55,9 +66,15 @@ body {
     padding: 5px;
 }
 
+.fa-regular {
+    display:grid;
+    place-items: center;
+}
+
 .trayectoria_titulo {
     color: gray;
 }
+
 
 .footer {
     outline-style: solid;
