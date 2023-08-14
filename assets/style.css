@@ -17,20 +17,12 @@ body {
     padding: 5px;
 }
 
-.educacion-titulo {
-    color: gray;
-}
-
 .datos_y_redes {
     display: flex;
     justify-content: center;
     padding: 5px;
     outline-style: solid;
     gap: 15px;
-}
-
-.datos_redes_titulo {
-    color: gray;
 }
 
 .ap-ac-ho {
@@ -55,14 +47,21 @@ body {
     padding: 5px;
 }
 
-.trayectoria_titulo {
-    color: gray;
-}
-
 .footer {
     outline-style: solid;
 }
 
-.footer_titulo {
-    color: gray;
+/*Commit*/
+/*Modificación de imagen de Nico*/
+
+.foto-nico{
+    border-radius: 50%;
+}
+
+/*Control de los titulos*/
+
+.subtitulo{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
