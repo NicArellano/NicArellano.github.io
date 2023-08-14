@@ -40,10 +40,6 @@ body {
     gap: 15px;
 }
 
-.datos_redes_titulo {
-    color: gray;
-}
-
 .ap-ac-ho {
     outline-style: solid;
     padding: 5px;
@@ -66,20 +62,25 @@ body {
     padding: 5px;
 }
 
-.fa-regular {
-    display:grid;
-    place-items: center;
-}
-
 .trayectoria_titulo {
     color: gray;
 }
-
 
 .footer {
     outline-style: solid;
 }
 
-.footer_titulo {
-    color: gray;
+/*Commit*/
+/*Modificación de imagen de Nico*/
+
+.foto-nico{
+    border-radius: 50%;
+}
+
+/*Control de los titulos*/
+
+.subtitulo{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
