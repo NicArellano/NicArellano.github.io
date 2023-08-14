@@ -16,22 +16,13 @@ body {
     outline-style: solid;
     padding: 5px;
 }
-.fa-solid {
-    display: grid;
-    place-items: center;
-}
 
 
 .educacion-titulo {
     color: gray;
 }
 
-.fa-brands {
-    display:flex;
-    align-items:start;
-    justify-content:flex-start;
-    
-}
+
 .datos_y_redes {
     display: flex;
     justify-content: center;
@@ -44,6 +35,7 @@ body {
     outline-style: solid;
     padding: 5px;
 }
+
 
 .aptitudes_titulo {
     color: grey;
@@ -70,17 +62,21 @@ body {
     outline-style: solid;
 }
 
-/*Commit*/
-/*Modificación de imagen de Nico*/
+/* ICONOS */
 
-.foto-nico{
-    border-radius: 50%;
+.fa-solid {
+    display: grid;
+    place-items: center;
 }
 
-/*Control de los titulos*/
+.fa-brands {
+    display:flex;
+    align-items:start;
+    justify-content:flex-start;
+    
+}
 
-.subtitulo{
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+.fa-regular {
+    display:grid;
+    place-items: center;
 }
