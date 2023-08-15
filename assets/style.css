@@ -30,7 +30,9 @@ body {
     outline-style: solid;
     gap: 15px;
 }
-
+.datos_redes_titulo {
+    color: gray;
+}
 .ap-ac-ho {
     outline-style: solid;
     padding: 5px;
@@ -70,13 +72,11 @@ body {
 }
 
 .fa-brands {
-    display:flex;
-    align-items:start;
-    justify-content:flex-start;
-    
+    display: grid;
+    place-items: start;
 }
 
 .fa-regular {
-    display:grid;
+    display: grid;
     place-items: center;
 }
